@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient();
+    background-image: url('happy.jpg');
+    min-height: 100vh;
+    background-repeat: round;
+    
+}
+h1{
+    margin-top: 160px;
+    color: white;
+}
+input{
+    background-color: pink;
+    height: 32px;
+    width: 320px;
+    border-radius: 0%;
+}
+
+.submit {
+    display: flex;
+    color: pink;
+    text-decoration: none;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

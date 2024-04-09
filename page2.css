@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 200px;
+     /* For browsers that do not support gradients */
+    background-color: rgb(10, 8, 8);
+    background-size: cover;
+  }
+/* .abc{
+    margin-left:40px;
+    padding-left: 20px;
+} */
+h1{ 
+    display: flex;
+    color:black;
+    font-size: 70px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+h1 span{
+    animation-name: abinesh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes abinesh{
+    0%,100%{
+        text-shadow: 0 0 10px red,0 0 20px red,0 0 40px red,0 0 80px red;
+        
+    }
+    5%,95%{
+        text-shadow: 0 0 0;
+    
+    }
+}
+

@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex; */
+    background-color: black;
+}
+.total{
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    /* height:px; */
+    width: fit-content;
+} 
+.a{
+    
+    color: black;
+    /* height:20px; */
+    margin-left: 40px;
+    padding: 15px;
+    transform: rotate(-45deg);
+    font-size: xx-large;
+}
+.a{
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+
+.b{
+
+    /* margin:42px; */
+    margin-left: 600px;
+    padding: 40px;
+    height: 50px;
+    font-size: xx-large;
+}
+.b{
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+
+
+
+.c{
+    
+    /* margin:30px; */
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 60px;
+    /* height: 50vh; */
+    transform: rotate(45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+
+.d{
+    /* display: flex; */
+    /* margin:42px; */
+    margin-left: 400px;
+    /* padding:60px; */
+    /* height: 50vh; */
+    transform: rotate(-45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.e{
+    /* display: flex; */
+    /* margin:42px; */
+    /* padding: 40px; */
+    /* height: 50vh; */
+    transform: rotate(45deg);
+    font-size: xx-large;
+    margin-left: 50px;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.f{
+    /* display: flex; */
+     /* margin:42px; */
+    /* padding: 72px; */
+    /* height: 50vh; */
+    transform: rotate(45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.g{
+    /* display: flex; */
+    /* margin:20px; */  
+    padding: 40px;
+    /* height: 50vh; */
+    transform: rotate(45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.h{
+    /* display: flex; */
+    /* margin:20px; */  
+    padding: 40px;
+    /* height: 50vh; */
+    transform: rotate(45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.i{
+    /* display: flex; */
+    /* margin:20px; */  
+    padding: 40px;
+    /* height: 50vh; */
+    transform: rotate(45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.j{
+    /* display: flex; */
+     /* margin:42px; */
+    /* padding: 72px; */
+    /* height: 50vh; */
+    transform: rotate(-45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+
+.k{
+    /* display: flex; */
+     /* margin:42px; */
+    /* padding: 72px; */
+    /* height: 50vh; */
+    transform: rotate(-45deg);
+    font-size: xx-large;
+    animation-name: abi;
+    animation-duration: 0.2ms;
+    animation-iteration-count: infinite;
+}
+.l{
+    display: flex; 
+     margin: 42px;
+     padding: 72px;
+     justify-content:center;
+    /* height: 50vh; */
+    
+    font-size: xx-large;
+    animation-name: abin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes abi{
+    0%{
+        text-shadow: 0 0 10px red,0 0 20px red,0 0 40px red,0 0 80px red;
+        
+    }
+    25%{
+        text-shadow: 0 0 10px rgb(81, 255, 0),0 0 20px rgb(0, 255, 30),0 0 40px rgb(0, 255, 89),0 0 80px red;
+        
+    }
+    50x%{
+        text-shadow: 0 0 10px rgb(255, 0, 166),0 0 20px rgb(255, 0, 179),0 0 40px rgb(255, 0, 225),0 0 80px rgb(255, 0, 200);
+        
+    }
+    75%{
+        text-shadow: 0 0 10px rgb(0, 255, 247),0 0 20px rgb(0, 255, 191),0 0 40px rgb(0, 251, 255),0 0 80px rgb(0, 221, 255);
+        
+    }
+    5%,95%{
+        text-shadow: 0 0 0;
+    
+    }
+}
+    @keyframes abin{
+        0%{
+            text-shadow: 0 0 10px red,0 0 20px red,0 0 40px red,0 0 80px red;
+            
+        }
+        25%{
+            text-shadow: 0 0 10px rgb(0, 102, 255),0 0 20px rgb(0, 106, 255),0 0 40px rgb(4, 0, 255),0 0 80px rgb(25, 0, 255);
+            
+        }
+        50x%{
+            text-shadow: 0 0 10px rgb(255, 0, 166),0 0 20px rgb(255, 0, 179),0 0 40px rgb(255, 0, 225),0 0 80px rgb(255, 0, 200);
+            
+        }
+        75%{
+            text-shadow: 0 0 10px rgb(0, 255, 247),0 0 20px rgb(0, 255, 191),0 0 40px rgb(0, 251, 255),0 0 80px rgb(0, 221, 255);
+            
+        }
+        5%,95%{
+            text-shadow: 0 0 0;
+        
+        }
+}
